@@ -10,5 +10,9 @@ class StudentsController < ApplicationController
   
   def new  
   end
+  
+  def create 
+    @post = 
+  end
 
 end
