@@ -12,7 +12,7 @@ class StudentsController < ApplicationController
   end
   
   def create 
-    @post = 
+    @student = Student.create!(first_name: params[:student][:first_name], last_name: )
   end
 
 end
